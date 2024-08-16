@@ -4,7 +4,10 @@ import CountryItem from "./CountryItem";
 import Spinner from "./Spinner";
 import Message from "./Message";
 import styles from "./CountryList.module.css";
-export default function CountryList({ isLoading, cityList }) {
+import { useCities } from "../contexts/CitiesContext";
+export default function CountryList() {
+  const { isLoading, cityList } = useCities();
+
   if (isLoading) return <Spinner />;
 
   if (cityList.length === 0)
@@ -15,7 +18,6 @@ export default function CountryList({ isLoading, cityList }) {
       return [...arr, { country: city.country, emoji: city.emoji }];
     else return arr;
   }, []);
-  console.log(countries);
 
   return (
     <ul className={styles.countryList}>

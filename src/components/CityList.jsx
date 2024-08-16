@@ -4,7 +4,10 @@ import CityItem from "./CityItem";
 import Spinner from "./Spinner";
 import Message from "./Message";
 import styles from "./CityList.module.css";
-export default function CityList({ isLoading, cityList }) {
+import { useCities } from "../contexts/CitiesContext";
+export default function CityList() {
+  const { isLoading, cityList } = useCities();
+
   if (isLoading) return <Spinner />;
   if (cityList.length === 0)
     return <Message message="enter the first city by clicking on th map" />;
