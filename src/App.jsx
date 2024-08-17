@@ -11,28 +11,7 @@ import City from "./components/City";
 import Form from "./components/Form";
 import { CitiesProvider } from "./contexts/CitiesContext";
 
-// const BASE_URL = "http://localhost:9000";
-
 function App() {
-  // const [cityList, setCityList] = useState([]);
-  // const [isLoading, setIsLoading] = useState(false);
-
-  // useEffect(function () {
-  //   async function getCities() {
-  //     try {
-  //       setIsLoading(true);
-  //       const res = await fetch(`${BASE_URL}/cities`);
-  //       const data = await res.json();
-  //       setCityList(data);
-  //     } catch {
-  //       alert("error in fetching data");
-  //     } finally {
-  //       setIsLoading(false);
-  //     }
-  //   }
-  //   getCities();
-  // }, []);
-
   return (
     <CitiesProvider>
       <BrowserRouter>

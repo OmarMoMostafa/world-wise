@@ -1,40 +1,172 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": 73930385
-    },
-    {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
+      "id": "eafb",
+      "cityName": "Qina",
+      "country": "Egypt",
+      "emoji": "🇪🇬",
+      "date": "2024-08-17T10:17:13.831Z",
       "notes": "",
       "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": 17806751
+        "lat": "26.150507192328902",
+        "lng": "32.75573730468751"
+      }
     },
     {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
+      "id": "e3b3",
+      "cityName": "Aswan",
+      "country": "Egypt",
+      "emoji": "🇪🇬",
+      "date": "2024-08-17T10:18:09.063Z",
+      "notes": "",
       "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": 98443197
+        "lat": "24.066528197726857",
+        "lng": "32.89855957031251"
+      }
+    },
+    {
+      "id": "05a2",
+      "cityName": "Luxor",
+      "country": "Egypt",
+      "emoji": "🇪🇬",
+      "date": "2024-08-17T10:18:14.959Z",
+      "notes": "",
+      "position": {
+        "lat": "25.70588750345636",
+        "lng": "32.67333984375001"
+      }
+    },
+    {
+      "id": "0124",
+      "cityName": "Sohag",
+      "country": "Egypt",
+      "emoji": "🇪🇬",
+      "date": "2024-08-17T10:18:19.929Z",
+      "notes": "",
+      "position": {
+        "lat": "26.5455370831333",
+        "lng": "31.695556640625004"
+      }
+    },
+    {
+      "id": "392f",
+      "cityName": "Assiut",
+      "country": "Egypt",
+      "emoji": "🇪🇬",
+      "date": "2024-08-17T10:18:32.224Z",
+      "notes": "",
+      "position": {
+        "lat": "27.186242185608737",
+        "lng": "31.190185546875004"
+      }
+    },
+    {
+      "id": "0cdf",
+      "cityName": "Cairo",
+      "country": "Egypt",
+      "emoji": "🇪🇬",
+      "date": "2024-08-17T10:33:37.223Z",
+      "notes": "",
+      "position": {
+        "lat": "30.05958569970824",
+        "lng": "31.256103515625004"
+      }
+    },
+    {
+      "id": "5a56",
+      "cityName": "Duba",
+      "country": "Saudi Arabia",
+      "emoji": "🇸🇦",
+      "date": "2024-08-17T10:34:11.759Z",
+      "notes": "",
+      "position": {
+        "lat": "27.371767300523047",
+        "lng": "35.67810058593751"
+      }
+    },
+    {
+      "id": "fdbe",
+      "cityName": "Umluj",
+      "country": "Saudi Arabia",
+      "emoji": "🇸🇦",
+      "date": "2024-08-17T10:34:30.076Z",
+      "notes": "",
+      "position": {
+        "lat": "25.0383270525352",
+        "lng": "37.28759765625001"
+      }
+    },
+    {
+      "id": "ec52",
+      "cityName": "Yanbu",
+      "country": "Saudi Arabia",
+      "emoji": "🇸🇦",
+      "date": "2024-08-17T10:34:36.398Z",
+      "notes": "",
+      "position": {
+        "lat": "24.076559120295407",
+        "lng": "38.11157226562501"
+      }
+    },
+    {
+      "id": "2181",
+      "cityName": "Medina",
+      "country": "Saudi Arabia",
+      "emoji": "🇸🇦",
+      "date": "2024-08-17T10:34:40.505Z",
+      "notes": "",
+      "position": {
+        "lat": "24.472150437226876",
+        "lng": "39.60021972656251"
+      }
+    },
+    {
+      "id": "7796",
+      "cityName": "Mecca",
+      "country": "Saudi Arabia",
+      "emoji": "🇸🇦",
+      "date": "2024-08-17T10:34:49.738Z",
+      "notes": "",
+      "position": {
+        "lat": "21.48374090716327",
+        "lng": "39.825439453125"
+      }
+    },
+    {
+      "id": "db9c",
+      "cityName": "Jeddah",
+      "country": "Saudi Arabia",
+      "emoji": "🇸🇦",
+      "date": "2024-08-17T10:34:54.281Z",
+      "notes": "",
+      "position": {
+        "lat": "21.611472417139705",
+        "lng": "39.16625976562501"
+      }
+    },
+    {
+      "id": "dfe3",
+      "cityName": "Giza",
+      "country": "Egypt",
+      "emoji": "🇪🇬",
+      "date": "2024-08-17T10:35:12.849Z",
+      "notes": "",
+      "position": {
+        "lat": "30.002516938570686",
+        "lng": "31.135253906250004"
+      }
+    },
+    {
+      "id": "7fdd",
+      "cityName": "Qalyub",
+      "country": "Egypt",
+      "emoji": "🇪🇬",
+      "date": "2024-08-17T10:35:27.134Z",
+      "notes": "",
+      "position": {
+        "lat": "30.179560465036428",
+        "lng": "31.23001098632813"
+      }
     }
   ]
 }
