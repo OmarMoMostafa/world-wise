@@ -1,4 +1,9 @@
+/*eslint-disable */
+
+import { useNavigate } from "react-router-dom";
+import { useAuth } from "../contexts/AuthContext";
 import styles from "./User.module.css";
+import { useEffect } from "react";
 
 const FAKE_USER = {
   name: "Jack",
@@ -8,9 +13,19 @@ const FAKE_USER = {
 };
 
 function User() {
-  const user = FAKE_USER;
+  const { user, isLogedIn, logout } = useAuth();
 
-  function handleClick() {}
+  const navigate = useNavigate();
+
+  function handleClick() {
+    logout();
+  }
+
+  useEffect(() => {
+    if (!isLogedIn) {
+      navigate("/", { replace: true });
+    }
+  }, [isLogedIn, navigate]);
 
   return (
     <div className={styles.user}>

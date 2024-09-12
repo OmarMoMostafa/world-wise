@@ -95,7 +95,6 @@ function Form() {
       notes,
       position: { lat, lng },
     };
-    //  return new Date(str1) > new Date(str2);
     if (
       cityList.filter(
         (city) => city.cityName == cityName && compareDates(city.date, date)

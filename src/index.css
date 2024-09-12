@@ -56,7 +56,8 @@ input:focus {
 }
 
 .cta:link,
-.cta:visited {
+.cta:visited,
+button.cta {
   display: inline-block;
   background-color: var(--color-brand--2);
   color: var(--color-dark--1);
@@ -66,6 +67,11 @@ input:focus {
   font-weight: 600;
   padding: 1rem 3rem;
   border-radius: 5px;
+}
+
+button.cta {
+  border: 0;
+  cursor: pointer;
 }
 
 /*
